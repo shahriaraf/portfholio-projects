@@ -1,0 +1,159 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin: 20px 30px;
+}
+/* shared style */
+.primary{
+    color: rgb(0, 156, 0);
+}
+/* Nav Styles */
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+   }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul li{
+    margin-right: 50px;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px
+}
+.hireme {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+}
+.download{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+}
+button:hover{
+    background-color: darkgreen;
+}
+.name{
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 15px;
+
+}
+.greetings{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.hardy{
+    width: 500px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between ;
+    margin: 100px 120px;
+}
+.paragraph{
+    max-width: 800px;
+    font-size: 20px;
+}
+.header{
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.contact{
+    color: green;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: green;
+    font-size: large;
+}
+.contact:hover{
+    background-color: antiquewhite;
+}
+
+/* next section */
+.me{
+    text-align: center;
+    padding-top: 100px;
+}
+.discription{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 60px;
+    margin: 0 100px 0 100px;
+
+}
+.about{
+    background-color: rgba(255, 236, 212, 0.918);
+    margin: 0 80px 0 80px;
+    align-items: center;
+}
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+/* next section */
+.do{
+    text-align: center;
+}
+.what{
+    margin: 0 100px 0 100px;
+}
+section{
+    margin: 100px 30px;
+}
+.skill{
+    display: flex;
+    margin: 50px 100px ;
+    gap: 50px;
+}
+.a{
+    box-shadow: 10px 10px 10px 10px rgba(99, 98, 98, 0.863);
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.inbox-me{
+    display: flex;
+    margin: 0 100px 0 100px;
+    background-color: bisque;
+    padding: 100px 50px 100px 50px ;
+}
+.contact-me{
+    max-width: 70%;
+}
+.facebook, .insta, .twitter{
+   margin-right: 20px;
+}
+.your-name, .your-email, .massage{
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+}
