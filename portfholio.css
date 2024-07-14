@@ -157,3 +157,50 @@ section{
     font-size: 15px;
     padding: 10px 20px;
 }
+
+
+/* for smaller divice */
+
+@media screen and (max-width: 576px) {
+    .what{
+        margin: auto;
+    }
+    .skill{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .inbox-me{
+        flex-direction: column;
+        margin: 0;
+    }
+    .about{
+        margin: 0;
+    }
+    .discription{
+        margin: 0;
+        padding: 20px;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .b{
+        padding-top: 20px;
+    }
+    .nav{
+        flex-direction: column;
+        margin: 0;
+    }
+    .banner{
+        margin: 0;
+        flex-direction: column;
+    }
+    .hardy{
+        width: 100%;
+    }
+    .header{
+        background-image: url(images/header_bg.png);
+    }
+    .download{
+        margin: 20px;
+    }
+}
